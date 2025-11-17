@@ -37,18 +37,25 @@ header{
     }
     nav{
         height: 100vh;
-        width: 20vw;
+        width: 24vw;
         border: none;
-        border-left: solid 1px var(--color-beige);
-        background: linear-gradient(to bottom, var(--color-primary)77%, var(--color-text-secondary) 77% );
+        border-left: solid 1px var(--color-text-primary);
+        background: linear-gradient(to bottom, var(--color-primary)70%, var(--color-text-secondary) 70% );
         left: auto;
+
+        button{
+            position: absolute;
+            right: 3.7rem;
+            top: 1rem;
+        }
 
         ul{
             list-style: none;
             padding: 20vh 4vw;
             li{
-                line-height: 3.5rem;
                 font-family: var(--font-family-heading);
+                line-height: var(--line-hight-xl);
+                font-size: var(--font-size-p-m);
                 a{
                     text-decoration: none;
                     color: var(--color-text-primary);
@@ -58,7 +65,7 @@ header{
                 }
 
                 &:nth-last-child(2){
-                    margin-top: 2vh;
+                    margin-top: 20vh;
                 }
 
                 &:nth-last-child(-n+2):hover{
