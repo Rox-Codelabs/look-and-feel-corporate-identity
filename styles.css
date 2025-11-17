@@ -7,11 +7,14 @@ header{
     background-color: var(--color-secondary);
     padding: 0 60px;
     height: 80px;
+    position: sticky;
+    top: 0;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    svg{
+    .civic-logo{
         height: 21px;
         transition: ease-in 0.5s;
 
@@ -19,6 +22,10 @@ header{
             height: 32px;
             max-width: 660px;
         }
+    }
+
+    h1{
+        display: none;
     }
 
     button{
@@ -36,4 +43,6 @@ header{
             }
         }
     }
+    
 }
+
