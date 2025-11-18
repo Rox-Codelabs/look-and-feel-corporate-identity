@@ -37,11 +37,11 @@ header{
     }
     nav{
         height: 100vh;
-        width: 24vw;
+        width: 100vw;
         border: none;
-        border-left: solid 1px var(--color-text-primary);
         background: linear-gradient(to bottom, var(--color-primary)70%, var(--color-text-secondary) 70% );
         left: auto;
+        
 
         button{
             position: absolute;
@@ -51,11 +51,11 @@ header{
 
         ul{
             list-style: none;
-            padding: 20vh 4vw;
             li{
                 font-family: var(--font-family-heading);
                 line-height: var(--line-hight-xl);
                 font-size: var(--font-size-p-m);
+                letter-spacing: 0.1rem;                                                        /* variabelen voor letter spacing?*/
                 a{
                     text-decoration: none;
                     color: var(--color-text-primary);
@@ -65,7 +65,7 @@ header{
                 }
 
                 &:nth-last-child(2){
-                    margin-top: 20vh;
+                    margin-top: 13vh;
                 }
 
                 &:nth-last-child(-n+2):hover{
