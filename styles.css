@@ -90,35 +90,47 @@ header{
         object-position: 0px -120px;
         padding: 3rem;
     }
-    h1{
-        /*opmaak*/
-        font-family: var(--font-family-heading);
-        font-size: 5.5rem;
-        font-weight: var(--font-weight-normal);
-        line-height: var(--line-hight-xl);
-        text-transform: uppercase;
+    div{
+        display: flex;
+        h1{
+            /*opmaak*/
+            font-family: var(--font-family-heading);
+            font-size: 5.5rem;
+            font-weight: var(--font-weight-normal);
+            line-height: var(--line-hight-xl);
+            text-transform: uppercase;
 
-        /*positionering*/
-        position: relative;
-        margin-top: -11rem;
-        padding: 3rem;
+            /*positionering*/
+            position: relative;
+            margin-top: -11rem;
+            padding: 3rem;
 
-        div{
-            display: block;
-            width: max-content;
-            background-color: var(--color-highlight);
-            padding: 1.5rem;
+            div{
+                display: block;
+                width: max-content;
+                background-color: var(--color-highlight);
+                padding: 1.5rem;
 
-            &:first-child{
-                outline: 0.3em solid var(--color-primary);
-            }
-            &:last-child{
-                position: relative;
-                margin-left: 11rem;
-                margin-top: -0.2rem;
+                &:first-child{
+                    outline: 0.3em solid var(--color-primary);
+                }
+
+                &:last-child{
+                    position: relative;
+                    margin-left: 11rem;
+                    margin-top: -0.2rem;
+                }
             }
         }
-        
-        p{}
+        p{
+            font-family: var(--font-family-heading);
+            font-size: var(--font-size-p-xl);
+            color: var(--color-highlight);
+            display: flex;
+            flex-direction: column;
+            margin-top: -1rem;
+            letter-spacing: 0.1rem;
+        }
     }
+    
 }
