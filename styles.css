@@ -134,3 +134,12 @@ header{
     }
     
 }
+
+footer{
+    .upper-footer{
+        background-color: var(--color-text-secondary);
+    }
+    .lower-footer{
+        background-color: var(--color-primary);
+    }
+}
