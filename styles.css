@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-color: var(--color-primary);
+}
+
 header{
     background-color: var(--color-secondary);
     padding: 0 60px;
@@ -77,3 +81,44 @@ header{
     
 }
 
+.hero-section{
+    img{
+        display: block;
+        width: 100%;
+        aspect-ratio: 16/7;
+        object-fit: cover;
+        object-position: 0px -120px;
+        padding: 3rem;
+    }
+    h1{
+        /*opmaak*/
+        font-family: var(--font-family-heading);
+        font-size: 5.5rem;
+        font-weight: var(--font-weight-normal);
+        line-height: var(--line-hight-xl);
+        text-transform: uppercase;
+
+        /*positionering*/
+        position: relative;
+        margin-top: -11rem;
+        padding: 3rem;
+
+        div{
+            display: block;
+            width: max-content;
+            background-color: var(--color-highlight);
+            padding: 1.5rem;
+
+            &:first-child{
+                outline: 0.3em solid var(--color-primary);
+            }
+            &:last-child{
+                position: relative;
+                margin-left: 11rem;
+                margin-top: -0.2rem;
+            }
+        }
+        
+        p{}
+    }
+}
