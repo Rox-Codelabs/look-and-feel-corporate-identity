@@ -139,7 +139,20 @@ footer{
     .upper-footer{
         background-color: var(--color-text-secondary);
     }
+    
     .lower-footer{
         background-color: var(--color-primary);
+        
+        ul{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            list-style: none;
+            justify-content: center;
+            text-align: center;;
+            img{
+                width: 150px;
+            }
+        }
+        
     }
 }
