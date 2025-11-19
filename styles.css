@@ -7,6 +7,10 @@ body{
     background-color: var(--color-primary);
 }
 
+.sentinel{
+    height: 1px;
+}
+
 header{
     background-color: var(--color-secondary);
     padding: 0 60px;
