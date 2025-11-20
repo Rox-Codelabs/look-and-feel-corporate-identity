@@ -126,6 +126,7 @@ header{
                 }
             }
         }
+
         p{
             font-family: var(--font-family-heading);
             font-size: var(--font-size-p-xl);
@@ -138,6 +139,10 @@ header{
     }
     
 }
+
+.filter-section{}
+
+.article-section{}
 
 footer{
     .upper-footer{
