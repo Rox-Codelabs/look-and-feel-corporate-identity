@@ -165,3 +165,43 @@ footer{
         
     }
 }
+
+
+/*---------------------------------------------deatail pagina-----------------------------------------------*/
+
+p{
+    color: var(--color-text-primary);
+    font-family: var(--font-family-p-detailpage);
+    font-size: var(--font-size-p-m);
+    line-height: var(--line-hight-l);
+    max-width: 65ch;
+    margin: auto;
+}
+
+.text-link{
+    color: var(--color-highlight);
+}
+
+.download{
+    .download-svg{
+        color: var(--color-text-primary);
+    }
+
+    .dowload-link{
+        font-size: var(--font-size-p-s);
+    }
+}
+
+.hero-section-detail-page{
+    background-color: var(--color-highlight);
+    height: 50vh;
+}
+
+.comment-section{
+    background-color: var(--color-highlight);
+    height: 50vh;
+    form{
+        margin: auto;
+        width: 50vw;
+    }
+}
