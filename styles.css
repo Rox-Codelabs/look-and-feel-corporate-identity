@@ -49,7 +49,7 @@ header{
         }
 
         ul{
-            list-style: none;
+            list-style-type: '';
             li{
                 font-family: var(--font-family-heading);
                 line-height: var(--line-hight-xl);
@@ -145,7 +145,7 @@ footer{
         ul{
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            list-style: none;
+            list-style-type: '';
             justify-content: center;
             text-align: center;;
             img{
