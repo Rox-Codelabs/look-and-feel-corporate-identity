@@ -7,14 +7,9 @@ body{
     background-color: var(--color-primary);
 }
 
-.sentinel{
-    height: 1px;
-}
-
 header{
     background-color: var(--color-secondary);
-    padding: 0 60px;
-    height: 80px;
+    padding: 1.2rem 5rem;
     position: sticky;
     top: 0;
 
@@ -30,10 +25,6 @@ header{
             height: 32px;
             max-width: 660px;
         }
-    }
-
-    h1{
-        display: none;
     }
 
     button{
@@ -82,7 +73,6 @@ header{
             }
         }
     }
-    
 }
 
 .hero-section{
@@ -178,7 +168,7 @@ p{
     margin: auto;
 }
 
-.text-link{
+p a{
     color: var(--color-highlight);
 }
 
@@ -186,7 +176,6 @@ p{
     .download-svg{
         color: var(--color-text-primary);
     }
-
     .dowload-link{
         font-size: var(--font-size-p-s);
     }
@@ -194,12 +183,12 @@ p{
 
 .hero-section-detail-page{
     background-color: var(--color-highlight);
-    height: 50vh;
+    height: 50vh; /*dit gaat weg even kijken*/
 }
 
 .comment-section{
     background-color: var(--color-highlight);
-    height: 50vh;
+    height: 50vh; /*dit gaat weg even kijken*/
     form{
         margin: auto;
         width: 50vw;
