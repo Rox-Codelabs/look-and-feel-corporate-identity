@@ -54,7 +54,7 @@ header{
                 font-family: var(--font-family-heading);
                 line-height: var(--line-hight-xl);
                 font-size: var(--font-size-p-m);
-                letter-spacing: 0.1rem;                                                        /* variabelen voor letter spacing?*/
+                letter-spacing: 0.1em;
                 a{
                     text-decoration: none;
                     color: var(--color-text-primary);
@@ -124,7 +124,7 @@ header{
             display: flex;
             flex-direction: column;
             margin-top: -1rem;
-            letter-spacing: 0.1rem;
+            letter-spacing: 0.1em;
         }
     }
     
