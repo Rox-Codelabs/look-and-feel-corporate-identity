@@ -289,6 +289,9 @@ footer{
                 label{
                     flex: 1;
                 }
+                input{
+                    padding: 0.2em;
+                }
                 button{
                     padding: 0.2em;
                 }
