@@ -363,8 +363,10 @@ p a{
 .comment-section{
     background-color: var(--color-highlight);
     height: 50vh; /*dit gaat weg even kijken*/
+    padding: 2rem 0;
     form{
         margin: auto;
         width: 50vw;
+        background-color: var(--color-highlight);
     }
 }
