@@ -241,21 +241,25 @@ main{
 }
 
 footer{
-    background-color: var(--color-text-secondary);
-    padding: 3rem;
     display: flex;
     flex-direction: column;
     
     .upper-footer{
+        background-color: var(--color-text-secondary);
+        padding: 3rem;
         display: grid;
         grid-template-columns: 1fr;
         gap: 5rem;
 
-        @media screen and (min-width:600px){
+        @media screen and (min-width:800px){
             grid-template-columns: 1fr 1fr;
         }
 
         .project-info{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            max-width: 500px;
             h4{
                 padding-bottom: 0.5em;
             }
@@ -267,12 +271,13 @@ footer{
                 }
             }
             img{
-                width: 25rem;
+                width: 25em;
                 padding-top: 1rem;
                 margin-left: -0.7rem;
             }
         }
         .community-info{
+            max-width: 500px;
             h5{
                 padding-bottom: 0.5em;
             }
@@ -286,6 +291,7 @@ footer{
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
+                max-width: 400px;
                 label{
                     flex: 1;
                 }
@@ -301,13 +307,22 @@ footer{
     
     .lower-footer{
         background-color: var(--color-primary);
-        display: none;
+        padding: 3rem;
+        h4{
+            color: var(--color-text-primary);
+            margin-bottom: 3em;
+        }
         ul{
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
             list-style-type: '';
             justify-content: center;
-            text-align: center;;
+            text-align: center;
+            
+            @media screen and (min-width:850px) {
+                grid-template-columns: repeat(5, 1fr);
+            }
             img{
                 width: 150px;
             }
@@ -335,6 +350,14 @@ p a{
 .hero-section-detail-page{
     background-color: var(--color-highlight);
     height: 50vh; /*dit gaat weg even kijken*/
+}
+
+.main-detail-page{
+    padding: 15rem;
+
+    .paragraph{
+        padding: 1rem 0;
+    }
 }
 
 .comment-section{
