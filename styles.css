@@ -340,10 +340,11 @@ p a{
 
 .download{
     .download-svg{
-        color: var(--color-text-primary);
+        color: var(--color-error);
     }
-    .dowload-link{
+    .download-link{
         font-size: var(--font-size-p-s);
+        color: var(--color-text-secondary);
     }
 }
 
@@ -369,4 +370,12 @@ p a{
         width: 50vw;
         background-color: var(--color-highlight);
     }
+}
+
+.btn-back{
+    margin: 3rem;
+}
+
+.h1-dtp{
+    margin: 3rem;
 }
