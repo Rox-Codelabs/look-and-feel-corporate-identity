@@ -1,17 +1,13 @@
-# Corporate Identity
-
-Ontwerp en maak voor een opdrachtgever een website op basis van een bestaande huisstijl.
-
-De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/INSTRUCTIONS.md)
-
-
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Overzichtspagina
+<img width="1920" height="3701" alt="image" src="https://github.com/user-attachments/assets/ff8252aa-dfed-4541-a903-6fa1e4ab3be5" />
+Detailpagina
+<img width="1920" height="3466" alt="image" src="https://github.com/user-attachments/assets/baa82e00-68ec-4962-8a87-110e0e2528ca" />
+Shared stylesheet
+<img width="1920" height="4546" alt="image" src="https://github.com/user-attachments/assets/3c5238b2-8af9-4824-8e29-d6d47094dc42" />
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
